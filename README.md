@@ -4,7 +4,7 @@ This repository provides a working camera fix for the **Dell Pro 14 Plus (PB1425
 
 It builds on top of the driver fixes proposed in [intel/ipu6-drivers#466](https://github.com/intel/ipu6-drivers/pull/466), adding an `hm1092` V4L2 subdev stub, `spd5118` I2C bus blacklisting, DKMS automation scripts, and a `libcamera` Software ISP color profile.
 
-> **Note:** This fix is specifically intended for the **Dell Pro 14 Plus (PB14250)** running **Fedora** with Intel **IPU6**. Other laptops do not need this workaround.
+> **Note:** This fix is specifically intended for the **Dell Pro 14 Plus (PB14250)** running **Fedora Workstation 44/45** with Intel **IPU6** and **kernel 7.3.3**. Other laptops do not need this workaround.
 
 ---
 
