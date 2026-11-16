@@ -143,7 +143,6 @@ Getting the webcam working on the **Dell Pro 14 Plus (PB14250)** requires resolv
 4. **`spd5118` I2C Probing Conflict on `i2c-usbio` & Missing Software ISP Tuning:**
    The `spd5118` memory temperature sensor driver probes addresses on the Synaptics USBIO virtual I2C bus and interferes with camera sensor communication, requiring `spd5118` to be blacklisted.
 
-
 ## Upstream Kernel Status (Skipping `ov05c10` DKMS in the Future)
 
 Once [intel/ipu6-drivers#466](https://github.com) is merged and updated into the upstream Linux kernel shipped by Fedora, the out-of-tree `ov05c10-0.1` DKMS module in this repository will no longer be necessary.
